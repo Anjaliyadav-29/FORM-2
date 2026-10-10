@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>create your account</title>
+</head>
+<body>
+    <h2 align="center"><u>CREATE YOUR ACCOUNT </u></h2>
+    <P align="center"> join our community and start your journey!</P>
+    <hr>
+    <form>
+        <!--personal information-->
+    <fieldset>
+        <legend>🤵PERSONAL INFORMATION</legend>
+        <label>Full Name:</label><br>
+        <input type="text" placeholder="Enter your full name"required><br><br>
+        <label>Username:</label><br>
+        <input type="text" placeholder="choose a username"required><br><br>
+        <label>Email address:</label><br>
+        <input type="Email" placeholder="Enter your email"required><br><br>
+        <label>Mobile Number</label><br>
+        <input type="tel" placeholder="Enter mobile number"required><br><br>
+        <label>Date of Birth</label><br>
+        <input type="date"><br><br>
+        <label>Select your gender:</label><br>
+        <label for>male</label>
+        <input name="A" type ="radio" >
+        <label FOR >Female</label>
+        <input name="A"type ="radio" >
+        <label>other</label>   
+        <input name="A" type ="radio" > <br><br>  
+        <label>Upload profile picture:</label><br>
+        <input type="file">
+     </fieldset><br>
+        <!--Account details-->
+    <fieldset> 
+        <legend>🔒ACCOUNT DETAILS</legend>
+        <label>Create password:</label><br>
+        <input type="password"placeholder="minimum 8 characters" required><br><br>
+        <label>Confirm Password:</label><br>
+        <input type="password"placeholder="Re-enter password"required><br><br>
+        <label>Security Question:</label><br>
+        <select>
+            <option>select a question</option>
+            <option>Favourite subject</option>
+            <option>Favourite colour</option>
+            <option>Favourite hobby</option>
+        </select><br><br>
+        <label>your answer</label><br>
+        <input type="text" placeholder="Enter your answer"required><br><br>    
+    </fieldset>
+      <!--Education details-->
+     <fieldset>
+        <legend>🎓EDUCATION QUALIFICATION</legend>
+        <label for="Qualification">Highest Qualification:</label><br>
+        <select id="Qualification" name="Qualification">
+              <option value ="select qualifiaction"required></option>
+              <option>10<sup>th</sup>pass</option>
+              <option>12<sup>th</sup>pass</option>
+              <option> Diploma</option>
+              <option>Post graduate</option>
+        </select><br><br>
+        <label>College Name:</label><br>
+        <input type="text"placeholder="Enter college name"required><br><br>
+        <label>Choose your course</label><br>
+        <select id="course" name="course">
+             <option value="select course"required></option>
+            <option>CSE</option>
+            <option>AIML</option>
+            <option>IOT</option>
+            <option>IT</option>
+            <option>DS</option>
+        </select ><br><br>
+        <label>Current year</label><br>
+        <select  id="year" name="year">
+            <option value="select year"required></option>
+            <option>Fist year</option>
+            <option>Second year</option>
+            <option>Third year</option>
+            <option>Fourt year</option>
+        </select><br><br>
+        <label>Skills:</label><br>
+        <label for>HTML</label>
+        <input name="A" type="checkbox">
+        <label for>CSS</label>
+        <input name="A" type="checkbox">
+        <label for>JAVA SCRIPT</label>
+        <input name="A" type="checkbox">
+        <label for>DSA</label>
+        <input name="A" type="checkbox">
+        </select>
+    </fieldset>
+    <!--Additional information-->
+    <fieldset>
+        <legend>🔽ADDITIONAL INFORMATION</legend>
+        <label>Country</label><br>
+        <select id="Country" name="Country">
+            <option value="select country"></option>
+            <option>INDIA</option>
+            <option>USA</option>
+            <option>CANADA</option>
+            <option>UNITED KINGDOM</option>
+        </select><br><br>
+        <label>Address</label><br>
+        <textarea id="address" name="address" rows="4" cols="35" 
+                   placeholder="enter your address"></textarea><br><br>
+                   <label>Favourite Colour-</label>
+                   <input type="color"><br><br>
+        </fieldset>
+        <!--Terms and conditions-->
+        <fieldset>
+            <legend>TERMS AND CONDITIONS</legend>
+            <input type="checkbox"id="terms"name="terms"required>
+            <label for=""terms>I agree to the terms and conditions</label>
+            <input type="checkbox"id="updates"name="updates"required>
+            <label for=""updates> I want to receive updates and notifiacations</label> 
+        </fieldset><br><br>
+        <!--button-->
+        <center>
+            <input type="submit" value="CRETE ACCOUNT">
+            <input type="reset"  value="RESET FORM"
+        </center>
+
+    </form>
+</body>
+</html>
